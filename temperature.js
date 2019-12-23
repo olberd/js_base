@@ -1,18 +1,17 @@
 "use strict";
-var Tf;
-var Tc = +prompt('Введите температуру по Цельсию ')
-Tf = (9 / 5) * Tc + 32;
+
+let Tc = +prompt('Введите температуру по Цельсию ')
+let Tf = (9 / 5) * Tc + 32;
 alert(Tf);
 
 //
-var admin;
-var name = "Василий"; 
-admin = name;
+let name = "Василий"; 
+let admin = name;
 alert(`Name admin is ${admin}`);
 
 // 1000 + "108" = 1000108 сложение числа с текстом дает текст
 
-var res;
+let res;
 res = 10 + 10 + "10"; 
 console.log(res); // 2010
 // 10+10 = 20, 20 число при сложеним с текстом "10" = конкантенация 
